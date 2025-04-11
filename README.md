@@ -34,3 +34,27 @@ Together, these formats allow seamless transition between **mesh-based**, **draw
 ---
 
 
+## 🛠 Installation
+
+### 1. Clone this repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/multi-cad-converter.git
+cd multi-cad-converter
+```
+
+### 2. Create a virtual environment (optional but recommended)
+```bash
+python -m venv venv
+source venv/bin/activate
+```
+
+### 3. Install required packages
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Launch the app
+```bash
+python src/gui.py
+```
