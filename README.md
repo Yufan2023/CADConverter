@@ -2,7 +2,7 @@
 
 # 🛠️ Multi-CAD Converter
 
-A user-friendly Python application for merging and converting 3D model files across the most widely used CAD file formats: `.STL`, `.OBJ`, `.DXF`, and `.STEP`. With just a few clicks, engineers, designers, and researchers can consolidate geometry from various sources and export in the format best suited for their workflow — all through a clean, interactive GUI powered by `tkinter`.
+A user-friendly Python application for merging and converting 3D model files across the most widely used CAD file formats: `.STL`, `.OBJ`, `.DXF`, and `.STEP`. With just a few clicks, you can pull together 3D models from different sources, merge them seamlessly, and export the result in whatever format fits your workflow best — all through a simple, interactive interface that doesn't require writing a single line of code.
 
 ---
 
