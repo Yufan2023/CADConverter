@@ -86,15 +86,15 @@ The shapes are merged and exported to your chosen format.
 ## 🔧 Extend It
 You can easily extend this tool by:
 
-Adding new formats (like .3mf, .igs, or .glb)
+- Adding new formats (like .3mf, .igs, or .glb)
 
-Integrating file alignment or scaling
+- Integrating file alignment or scaling
 
-Creating a CLI mode
+- Creating a CLI mode
 
-Automating file naming and versioning
+- Automating file naming and versioning
 
-Supporting texture/material data for .obj
+- Supporting texture/material data for .obj
 
 The code is organized and modular — so it’s easy to build on.
 
