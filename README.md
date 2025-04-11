@@ -86,7 +86,7 @@ The shapes are merged and exported to your chosen format.
 ## 🔧 Extend It
 You can easily extend this tool by:
 
-- Adding new formats (like .3mf, .igs, or .glb)
+- Adding new formats (like ```.3mf```, ```.igs```, or ```.glb```)
 
 - Integrating file alignment or scaling
 
@@ -94,13 +94,27 @@ You can easily extend this tool by:
 
 - Automating file naming and versioning
 
-- Supporting texture/material data for .obj
+- Supporting texture/material data for ```.obj```
 
 The code is organized and modular — so it’s easy to build on.
 
 
 
+## 📦 Dependencies
+- ```pythonocc-core```
 
+- ```trimesh```
+
+- ```numpy-stl```
+
+- ```ezdxf```
+
+- ```tkinter (included with Python)```
+
+Install everything with:
+```bash
+pip install -r requirements.txt
+```
 
 
 
