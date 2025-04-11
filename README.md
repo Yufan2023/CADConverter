@@ -58,3 +58,34 @@ pip install -r requirements.txt
 ```bash
 python src/gui.py
 ```
+
+
+## 📂 Supported Formats
+Format	Read	Write	Notes
+.step	✅	✅	Ideal for CAD software interoperability
+.stl	✅	✅	Perfect for 3D printing
+.obj	✅	✅	Used in 3D modeling and game development
+.dxf	✅	✅	Supports 3DFACE-based 3D drawings
+
+## 🔍 How It Works
+STEP files are loaded using ```pythonOCC``` to preserve parametric geometry.
+
+STL, OBJ, and DXF files are tessellated into triangle meshes.
+
+All inputs are converted into OpenCASCADE shapes.
+
+The shapes are merged and exported to your chosen format.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
