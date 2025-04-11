@@ -1,0 +1,5 @@
+numpy>=1.21.0
+trimesh>=3.21.0
+numpy-stl>=2.16.0
+ezdxf>=1.0.0
+pythonocc-core>=7.6.0
