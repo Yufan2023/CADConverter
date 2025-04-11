@@ -61,11 +61,14 @@ python src/gui.py
 
 
 ## 📂 Supported Formats
-Format	Read	Write	Notes
-.step	✅	✅	Ideal for CAD software interoperability
-.stl	✅	✅	Perfect for 3D printing
-.obj	✅	✅	Used in 3D modeling and game development
-.dxf	✅	✅	Supports 3DFACE-based 3D drawings
+
+| Format  | Read | Write | Notes                                        |
+|---------|------|-------|----------------------------------------------|
+| `.step` | ✅   | ✅    | Ideal for CAD software interoperability       |
+| `.stl`  | ✅   | ✅    | Perfect for 3D printing                       |
+| `.obj`  | ✅   | ✅    | Used in 3D modeling and game development      |
+| `.dxf`  | ✅   | ✅    | Supports 3DFACE-based 3D geometry in drawings |
+
 
 ## 🔍 How It Works
 STEP files are loaded using ```pythonOCC``` to preserve parametric geometry.
