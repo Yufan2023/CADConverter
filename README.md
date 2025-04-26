@@ -80,7 +80,8 @@ All inputs are converted into OpenCASCADE shapes.
 The shapes are merged and exported to your chosen format.
 
 ##  GUI Preview
-(Add a screenshot and update the path below if available)
+![image](https://github.com/user-attachments/assets/e74cdcdf-b6b1-4c54-804b-801439895237)
+
 
 
 ##  Extend It
