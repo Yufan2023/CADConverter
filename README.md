@@ -1,12 +1,12 @@
 # CADConverter
 
-# 🛠️ Multi-CAD Converter
+#  Multi-CAD Converter
 
 A user-friendly Python application for merging and converting 3D model files across the most widely used CAD file formats: `.STL`, `.OBJ`, `.DXF`, and `.STEP`. With just a few clicks, you can pull together 3D models from different sources, merge them seamlessly, and export the result in whatever format fits your workflow best — all through a simple, interactive interface that doesn't require writing a single line of code.
 
 ---
 
-## 💡 Why These Four Formats?
+##  Why These Four Formats?
 
 The selected formats represent a comprehensive cross-section of CAD ecosystems — balancing simplicity, interoperability, and geometric richness:
 
@@ -22,14 +22,14 @@ Together, these formats allow seamless transition between **mesh-based**, **draw
 
 ---
 
-## 🚀 Features
+##  Features
 
-- ✅ **Multi-format support**: Import `.stl`, `.obj`, `.dxf`, and `.step` files from any source
-- 🧠 **Preserves geometry**: Utilizes `pythonOCC` to retain B-Rep fidelity in STEP files
-- 🧩 **Merging capability**: Combine heterogeneous files into a single unified mesh or STEP assembly
-- 📤 **Export flexibility**: Output your final file in `.step`, `.stl`, `.obj`, or `.dxf` formats
-- 🖥 **GUI-based**: Designed with `tkinter` for a no-code, intuitive experience
-- 🔄 **Extensible**: Modular Python backend supports easy extension to formats like `.3mf`, `.igs`, or `.glTF`
+-  **Multi-format support**: Import `.stl`, `.obj`, `.dxf`, and `.step` files from any source
+-  **Preserves geometry**: Utilizes `pythonOCC` to retain B-Rep fidelity in STEP files
+-  **Merging capability**: Combine heterogeneous files into a single unified mesh or STEP assembly
+-  **Export flexibility**: Output your final file in `.step`, `.stl`, `.obj`, or `.dxf` formats
+-  **GUI-based**: Designed with `tkinter` for a no-code, intuitive experience
+-  **Extensible**: Modular Python backend supports easy extension to formats like `.3mf`, `.igs`, or `.glTF`
 
 ---
 
@@ -60,7 +60,7 @@ python src/gui.py
 ```
 
 
-## 📂 Supported Formats
+##  Supported Formats
 
 | Format  | Read | Write | Notes                                        |
 |---------|------|-------|----------------------------------------------|
@@ -70,7 +70,7 @@ python src/gui.py
 | `.dxf`  | ✅   | ✅    | Supports 3DFACE-based 3D geometry in drawings |
 
 
-## 🔍 How It Works
+##  How It Works
 STEP files are loaded using ```pythonOCC``` to preserve parametric geometry.
 
 STL, OBJ, and DXF files are tessellated into triangle meshes.
@@ -79,11 +79,11 @@ All inputs are converted into OpenCASCADE shapes.
 
 The shapes are merged and exported to your chosen format.
 
-## 📸 GUI Preview
+##  GUI Preview
 (Add a screenshot and update the path below if available)
 
 
-## 🔧 Extend It
+##  Extend It
 You can easily extend this tool by:
 
 - Adding new formats (like ```.3mf```, ```.igs```, or ```.glb```)
@@ -100,7 +100,7 @@ The code is organized and modular — so it’s easy to build on.
 
 
 
-## 📦 Dependencies
+##  Dependencies
 - ```pythonocc-core```
 
 - ```trimesh```
