@@ -82,6 +82,29 @@ The shapes are merged and exported to your chosen format.
 ##  GUI Preview
 ![image](https://github.com/user-attachments/assets/e74cdcdf-b6b1-4c54-804b-801439895237)
 
+How to Use the Application
+
+Using the Multi-CAD Converter is simple and intuitive. Here's how:
+
+1. **Launch the Application**  
+   Run `python src/gui.py` to open the converter window.
+
+2. **Select 3D Files**  
+   Click the **Select Files** button to choose one or multiple 3D files from your computer. Supported input formats are `.stl`, `.obj`, `.dxf`, and `.step`.
+
+3. **Choose Output Format**  
+   Use the **Output Format** dropdown menu to select the format you want to export to:
+   - `.step` — for solid CAD models
+   - `.stl` — for 3D printing
+   - `.obj` — for visual modeling
+   - `.dxf` — for 2D/3D engineering drawings
+
+4. **Convert and Merge**  
+   Click the **Convert & Merge** button.  
+   The tool will automatically load, merge, and convert the files into a single output file.
+
+5. **Save the Result**  
+   After conversion, you’ll be prompted to choose where to save your new file.
 
 
 ##  Extend It
