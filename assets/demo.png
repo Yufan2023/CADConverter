@@ -1,1 +1,7 @@
+This demonstration shows how the MultiCAD Converter tool can combine a mesh-based 3D model (.stl) and a drawing-based 3D model (.dxf) into a single output file, ready for further CAD operations or visualization.
 
+We specifically combine:
+
+A heart model exported from FreeCAD in .stl format
+
+A tire model exported from AutoCAD in .dxf format
