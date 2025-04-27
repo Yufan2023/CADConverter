@@ -1,7 +1,15 @@
-This demonstration shows how the MultiCAD Converter tool can combine a mesh-based 3D model (.stl) and a drawing-based 3D model (.dxf) into a single output file, ready for further CAD operations or visualization.
+##  Demo: Combining Heart (.stl) + Tire (.dxf) Models
 
-We specifically combine:
+This demonstration shows how the MultiCAD Converter merges files from different CAD systems:
 
-A heart model exported from FreeCAD in .stl format
+- **Heart Model** (FreeCAD, `.stl`): Mesh geometry
+- **Tire Model** (AutoCAD, `.dxf`): Surface faces
 
-A tire model exported from AutoCAD in .dxf format
+✅ Selected files: `heart.stl`, `tire.dxf`  
+✅ Output format: `STEP` (solid model)  
+✅ Result: One unified CAD file ready for further editing or cloud storage.
+
+> ![Demo Screenshot](assets/demo.png)
+
+Through a few simple steps — selecting files, choosing an output format, and clicking **Convert & Merge** — complex cross-platform models are combined without data loss, lightweight for cloud collaboration, and usable across major CAD software.
+
